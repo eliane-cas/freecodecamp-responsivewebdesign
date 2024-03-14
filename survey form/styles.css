@@ -1,0 +1,76 @@
+body {
+  background-image: url(https://images.pexels.com/photos/1660924/pexels-photo-1660924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  font-family: Garamond;
+  font-size: 15px;
+  color: white;
+  align: center;
+  }
+
+h1, p {
+  text-align: center;
+  color: pink}
+
+p {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+  padding: 0;
+  color: white;
+  }
+
+label {
+  font-size: 15px;
+  display: block;
+  padding: 10px;
+}
+
+.survey-canvas {
+  background: rgba(215, 0, 0, 0.3);
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+  border-radius: 9px; 
+  box-shadow: 0 0 20px 2px hsla(0, 100%, 100%, 0.8)
+}
+
+.inline {
+  display: inline;
+  vertical-align: middle; 
+  margin: 0 3 0 0; 
+  padding: 0 0 0 0;
+  border-bottom: 0px;  
+}
+
+label[class="close"] {
+  padding: 5px 0 2px 0;
+
+}
+
+
+input[type="submit"] {
+  display: block;
+  background-color: maroon;
+  border-color: white;
+  font-family: Garamond;
+  font: white; 
+  margin: auto;
+  min-width: 150px; 
+  padding: 3px;
+  border-radius: 10px;
+
+}
+
+input, textarea, select {
+  background-color: pink;
+  border: 1px solid white;
+  font-family: Garamond; 
+  color: white;
+}
+
+.header {
+  margin-top: 25px;
+
+}
+

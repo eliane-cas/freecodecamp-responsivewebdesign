@@ -1,0 +1,172 @@
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: linen;
+color: darkgreen;
+font-family: Garamond;
+margin: 0;
+font-size: 18px;
+
+
+}
+
+
+header {
+  width: 100%; 
+  height: 70px;
+background: linear-gradient(360deg, transparent 10%, orange 90%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#header-img {
+  width: 60px;
+  padding: 7px;
+  margin-top: -5px;
+  justify-items: center;
+
+}
+
+h1 { 
+  text-align: center;
+}
+
+nav {
+  padding: 7px;
+  max-width: 450px;
+}
+
+nav > ul {
+  display: flex; 
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+  align-items: center;
+  height: 100%;
+}
+
+nav > ul > li {
+  display: block;
+  margin: 2px;
+  padding: 2px;
+}
+
+li > a {
+  color: green;
+  text-decoration: none;
+  
+}
+
+li > a:hover {
+  color: orangered;
+  background-color: linen;
+}
+
+main {
+  padding: 20px 20px 30px 20px;
+ 
+  
+}
+
+h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#video {
+  display: block;
+  margin: auto; 
+  margin-top: 40px;´
+  width: 500px;
+  
+}
+
+
+.tiers {
+display: flex;
+flex-wrap: wrap;
+ 
+}
+
+
+fieldset {
+  width: 25%;
+  border-radius: 15px;
+  border: 3px solid green;
+  display: inline; 
+  margin: auto;
+  text-align: center;
+  
+  
+}
+
+fieldset img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  
+}
+
+
+legend {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#form {
+  text-align: center;
+}
+
+fieldset ul {
+  padding: 2px;
+  list-style: none;
+}
+
+footer {
+  width: 100vw; 
+  height: 70px;
+background: linear-gradient(transparent 0%, orange 90%);
+    text-align: center;
+    
+    bottom: 0;
+    
+    
+}
+
+#email {
+  background: linen; 
+  border: 2px solid green;
+  border-radius: 10%;
+  color: green;
+  padding: 3px;
+  margin: 5px;
+}
+
+::placeholder {
+  color: orange;
+}
+
+#submit {
+  background: orange;
+  border: 2px solid green;
+  padding: 3px 14px;
+  border-radius: 30%;
+  color: green
+}
+
+
+
+
+@media (max-width: 420px) {
+  #video {
+  width: 70%;
+}
+}
+
+

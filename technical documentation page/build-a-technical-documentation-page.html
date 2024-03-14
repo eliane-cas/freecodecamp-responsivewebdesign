@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Calculator</title>
+    <link rel="stylesheet" href="./styles.css"
+  </head>
+
+  <body>
+    <div class="nav">
+      <nav id="navbar">
+        <div class="nav-head">
+          <header><h1>HTML calculator</h1></header>
+        </div>
+        <div class="content">
+          <ul>
+            <li><a class="nav-link" href="#understanding_the_code"><h3>Understanding the Code</h3></a></li>
+            <li><a class="nav-link" href="#copying_the_calculator_code"><h3>Copying the Calculator Code</h3></a></li>
+            <li><a class="nav-link" href="#creating_the_html_file"><h3>Creating the HTML File</h3></a></li>
+            <li><a class="nav-link" href="#using_your_calculator"><h3>Using Your Calculator</h3></a></li>
+            <li><a class="nav-link" href="#resources"><h3>Tips</h3></a></li>
+            <li><a class="nav-link" href="#tips"><h3>Resources</h3></a></li>
+            <li><a class="nav-link" href="#extra_stuff"><h3>Extra Stuff</h3></a></li>
+     </div>         
+     </nav>
+    </div>
+
+    <div class="main">
+    <main id="main-doc">
+      <section class="main-section" id="understanding_the_code">
+        <header><h2>Understanding the Code</h2></header>
+        <p>Learn what each html function is doing. The code you will use to create your calculator is made up of many pieces of syntax that work together to define different elements of a document.</p>
+        <ul class="list1">
+          <li><span class="name">html</span> This piece of syntax tells the rest of the document what language is being used in the code.</</li>
+          <li><span class="name">head</span> Tells the document that everything beneath it is data about data, also known as "metadata".</li>
+          <li><span class="name">title</span> This is where you will name the title of your document. This attribute is used to define what the title of the document will be when opened in an html browser.</li>
+          <li><span class="name">body bgcolor= "#"</span> This attribute sets the color of the code's background and body.</li>
+          <li><span class="name">text= ""</span> The word in this set of quotes sets the color of the text on the document.</li>
+          <li><span class="name">form name=""</span> This attribute specifies the name of a form, which is used to build the structure of what comes after it based on what Javascript knows that form name to mean.</li>
+          <li><span class="name">input type=""</span>> This is where the action happens. The "input type" attribute tells the document what sort of text the values in the rest of the brackets are.</li>
+          <li><span class="name">value=""</span> This command tells the document what will be contained in the input type specified above.</li>
+          <li><span class="name">onClick=""</span> This syntax describes an event, which tells the document that something should occur when the button is clicked.</li>
+          <li><span class="name">br</span> this tag initiates a line break in the document, so that whatever comes after it will appear a line below whatever came before it.</li>
+      </section>
+
+      <section class="main-section" id="copying_the_calculator_code">
+        <header><h2>Copying the Calculator Code</h2></header>
+        <p>Copy the code below. Highlight the text in the box below by holding down your cursor in the top-left corner of the box, and dragging it to the bottom-right corner of the box so that all of the text is blue.</p>
+        <p>Start by writing the main html elements:</p>
+          <code>html, head, title </code>
+        <p>Then format the background and text colors with:</p>
+          <code>body</code>
+        <p>And write what you're creating and its name:</p>
+          <code>form</code>
+        <p>Fill in all the inputs for each number and symbol on the calculator, including the addition, multiplication, etc:</p>
+          <code>input type="button" value="1" onClick="document.calculator.ans.value+='1'"</code>
+        <p>Finish with a reset and equals button:</p>
+          <code>input type="reset" value="Reset"</code>
+          <code>input type="button" value="=" onClick="document.calculator.ans.value=eval (document.calculator.ans.value)"</code>
+        <p>Don't forget to close the container tags!</p>
+      </section>
+
+      <section class="main-section" id="creating_the_html_file">
+        <header><h2>Creating the HTML File</h2></header>
+        <p>Open a text editing program on your computer. There are a number of programs you can use, but for convenience and quality, we recommend using TextEdit or Notepad.</p>
+        <p>Paste the HTML code for a calculator into the document.</p>
+        <p>Add an HTML extension to the file name. In the "Save As..." menu, type in your file name followed by ".html", and then click "Save".</p>
+      </section>
+
+      <section class="main-section" id="using_your_calculator">
+        <header><h2>Using Your Calculator</h2></header>
+        <p>Find your file to open it and click on it.</p>
+        <p>Click the buttons on the calculator to use it. The solutions to your equations will appear in the solutions bar.</p>
+      <div class="row">
+      <img class="image" src="https://i.stack.imgur.com/51Thl.png">
+      <img class="image" src="https://www.sourcecodester.com/sites/default/files/images/srplanta/calculator.jpg">
+    </div>
+      </section>
+
+      <section class="main-section" id="tips">
+        <header><h2>Tips</h2></header>
+        <p>You can also use HTML styling to change the look of the calculator.</p>
+        <p>You can embed this calculator in a web page if you would like.</p>
+      </section>
+
+       <section class="main-section" id="resources">
+        <header><h2>Resources</h2></header>
+        <p>Find a more detailed explanation on the following <a href="https://www.wikihow.com/Create-a-Calculator-Using-HTML" class="wiki">page</a>.</p>
+        <p>Or you can check out this video here:</p>
+        <iframe src="https://www.youtube.com/embed/98dxv6JlbF0?si=6fLm6u27UUHWY_oo&amp;controls=0" class="utube-vid"> </iframe>
+      </section>
+
+       <section class="main-section" id="extra_stuff">
+        <header><h2>Extra Stuff</h2></header>
+        <p>There are plenty of ways to do math on a desktop computer using a built-in calculator, but another way is to build one yourself using a simple HTML code. To create a calculator using HTML, learn some basics about HTML, then copy the necessary code into a text editor and save it with an HTML extension. You can then use your calculator by opening up the HTML document in your favorite browser. By doing all of this, not only will you be able to do math in a browser, but you can also learn some fundamentals about the art of coding!</p>
+       
+      </section>
+
+    </main>
+    </div>
+  </body>
+</html>
+
+  

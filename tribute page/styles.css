@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: #fcf7e3;  
+  font-family: Garamond;
+  color: #122466;
+}
+
+main {
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+h1:hover {
+  color: #1d6612
+}
+
+#life {
+  font-style: italic;
+  font-size: 15px;
+}
+
+#image {
+  width: 45%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  padding-top: -5px;
+  margin-top: 0px;
+  color: blue;
+}
+
+li {
+  list-style: square;
+  text-align: left;
+  width: 70%;
+  margin: 0 auto 15px auto;
+}
+
+#best {
+  margin: 30px auto 0 auto;
+}
+
+h2 {
+  margin: 50px; 
+}
+
+#tribute-link {
+  color: blue;
+}
+
+#tribute-link:hover {
+  color: #1d6612
+}
+

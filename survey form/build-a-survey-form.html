@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+  <div class="header">
+  <h1 id="title">Ghost Hunters feedback form<h1>
+  <p id="description">tell us how well we did getting rid of your ghosts</p>
+  </div>
+  <div class="survey-canvas">
+    <form id="survey-form">      
+        <label id="name-label">your name</label>
+        <input id="name" type="text" required placeholder="Pepito"></input>
+        <label id="email-label">your email</label>
+        <input id="email" type="email" required placeholder="pepito@gmail.com" />
+        <label id="number-label">how many ghosts did we get rid of?</label>
+        <input id="number" type="number" required min="1" max="100" placeholder="13" /> 
+        <label id="dropdown-label">worst offender</label>
+        <select id="dropdown">
+          <option value="1">poltergeist</option>
+          <option value="2">demon</option>
+          <option value="3">spirit</option>
+          </select>
+          
+          <p>would you recommed our services?</p>
+          <label for="yes" class="close">
+          <input type="radio" name="which" checked class="inline" value="yes" />yes</label>
+          <label for="no" class="close"><input type="radio" name="which" class="inline" value="no" />no</label> 
+    <p>when were the hauntings the worst?</p>
+          <label class="close"><input type="checkbox" value="morning" class="inline"/>morning</label>
+          <label class="close"><input type="checkbox" value="midday" class="inline"/>midday</label>
+          <label class="close"><input type="checkbox" value="night" class="inline" />night</label>
+          <label for="comments">any further comments?<br><textarea id="comments" name="comments" rows="3" cols="25" placeholder="i'm still haunted..."></textarea></label>
+        
+        <input id="submit" type="submit" />
+
+      </form>
+      </div>
+  </body>
+  </html>
+
